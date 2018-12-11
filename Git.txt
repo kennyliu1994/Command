@@ -1,52 +1,47 @@
-??Github??
+How to start Github
 register github on website (https://github.com/)
 install git for pc (https://git-scm.com/)
 
 Normal Command
-git --version
-??????
-git status
-?????????
-git log
-??????commit?????
-git diff 
-?????commit?????? 
-git show 
-??????commit?????
+$ git --version
+show version
+$ git status
+show status currently
+$ git log
+list all commit history
+$ git diff 
+compare file or commit file
+$ git show 
+show commit content currently
 
-1.??
-git config --global user.email "<email>"
-git config --global user.name "<name>"
-??push????
-git config --list
+1.upload
+$ git config --global user.email "<email>"
+$ git config --global user.name "<name>"
+set profile who push to remote
+$ git config --list
 
-git clone <HTTP from Github repository> 
-clone???local?
+$ git clone <HTTP from Github repository> 
+clone to local
 
-git init  
-????Repository (?????????????git init)
+$ git init  
+create Repository (input git init in right Repository)
 
-git add -A 
-?????Staging Area
+$ git add -A 
+add modified file to Staging Area
 
-git commit -a -m "??????"
-???????Repository
-git commit -e ?????????????
+$ git commit -a -m "want to say"
+Store to Repository
+$ git commit -e 
+say more
 
-git push
-Push?Github??
+$ git push
+Push to Github(remote)
 
-2.???????
-git rm --cached ???? 
-???Repository?????Staging Area
-git reset HEAD 
-????Repository?????Staging Area
+2.go back to previous version
+$ git log <version number>
+(ex:5f5bd1...)
+$ git reset --hard <version number>
 
-3.???????
-git log 
-???????(ex:5f5bd1...)
-git reset --hard <??>
-
-4.???????
-git reflog
-git reset --hard <??>
+4.go to future version
+$ git reflog
+$ git reset --hard <version number>
