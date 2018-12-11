@@ -1,0 +1,10 @@
+git config --global user.email "<email>"
+git config --global user.name "<name>"
+set email and name who is going to push
+
+git clone <HTTP from Github repository> 
+Store/Download to Client
+
+git add -A 
+Store modified file to Staging Area
+
