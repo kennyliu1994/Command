@@ -10,6 +10,7 @@ show status currently
 $ git log
 list all commit history
 $ git diff 
+(ex:diff N9-4.Q /d/QMScript/N9-4.Q)
 compare file or commit file
 $ git show 
 show commit content currently
