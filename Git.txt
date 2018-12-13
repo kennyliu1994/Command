@@ -28,6 +28,8 @@ create Repository (input git init in right Repository)
 
 $ git add -A 
 add modified file to Staging Area
+$ git add .
+add just add what you modify
 
 $ git commit -a -m "want to say"
 Store to Repository
