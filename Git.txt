@@ -1,44 +1,45 @@
-How to start Github
+使用之前
 register github on website (https://github.com/)
 install git for pc (https://git-scm.com/)
-嗨
-Normal Command
+
+一般指令
 $ git --version
-show version
+版本
 $ git status
-show status currently
+顯示狀態
 $ git log
-list all commit history
+顯示全部commit的內容
 $ git diff 
 (ex:diff N9-4.Q /d/QMScript/N9-4.Q)
-compare file or commit file
+比較檔案內容
 $ git show 
-show commit content currently
+顯示目前commit內容
 
-1.upload
+push到github
 $ git config --global user.email "<email>"
 $ git config --global user.name "<name>"
-set profile who push to remote
+設定誰要push
 $ git config --list
+顯示全部設定
 
 $ git clone <HTTP from Github repository> 
-clone to local
+下載到local
 
 $ git init  
-create Repository (input git init in right Repository)
+建立Repository(輸入git init在當下Repository)
 
 $ git add -A 
-add modified file to Staging Area
+加入修改的檔案到暫存區(Staging Area)
 $ git add .
-add just add what you modify
+只加入修改的檔案
 
-$ git commit -a -m "want to say"
-Store to Repository
+$ git commit -a -m "敘述"
+存版本版本庫(Repository)
 $ git commit -e 
-say more
+可敘述更多
 
 $ git push
-Push to Github(remote)
+push到Github(remote)
 
 2.go back to previous version
 $ git log <version number>
