@@ -1,7 +1,7 @@
 How to start Github
 register github on website (https://github.com/)
 install git for pc (https://git-scm.com/)
-
+嗨
 Normal Command
 $ git --version
 show version
