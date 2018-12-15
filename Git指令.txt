@@ -19,6 +19,8 @@ push到github
 $ git config --global user.email "<email>"
 $ git config --global user.name "<name>"
 設定誰要push
+$ git config --global core.editor "emacs"
+默認編輯器
 $ git config --list
 顯示全部設定
 
