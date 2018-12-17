@@ -1,0 +1,12 @@
+$ git clone <>
+$ git remote
+顯示所有的遠端版本控制倉庫(沒特別設定會默認為clone的)
+$ git remote -v
+後方顯示其URL
+git remote add <名稱> <網址>
+$ git push <要remote的名稱，默認origin> master
+上傳
+$ git remote rename <前><後
+改名
+$ git remote rm <>
+刪除

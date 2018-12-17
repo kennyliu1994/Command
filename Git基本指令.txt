@@ -9,24 +9,19 @@ $ git status
 顯示狀態
 $ git log
 顯示全部commit的內容
-$ git diff 
-(ex:diff N9-4.Q /d/QMScript/N9-4.Q)
-比較檔案內容
 $ git show 
 顯示目前commit內容
 
-push到github
 $ git config --global user.email "<email>"
 $ git config --global user.name "<name>"
 設定誰要push
 $ git config --global core.editor "emacs"
 默認編輯器
 $ git config --list
-顯示全部設定
 
+顯示全部設定
 $ git clone <HTTP from Github repository> 
 下載到local
-
 $ git init  
 建立Repository(輸入git init在當下Repository)
 
