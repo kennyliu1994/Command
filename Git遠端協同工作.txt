@@ -10,3 +10,10 @@ $ git remote rename <前><後
 改名
 $ git remote rm <>
 刪除
+
+修改已命名位址
+1.修改命令
+$ git remote set-url origin <url>
+2.先刪再加
+$ git remote rm origin
+$ git remote add origin <url>
