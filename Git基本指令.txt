@@ -37,10 +37,9 @@ $ git commit -e
 
 $ git push
 push到Github(remote)
-與Github路徑相同不用指定remote目標
-(ex:$ git push)
-local端資料push到remote端不同名稱的repository
-(ex:$ git push origin master)
+clone過用$ git push
+沒有要設定remote
+(ex:$ git push <origin> master)
 
 2.go back to previous version
 $ git log <version number>
