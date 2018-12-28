@@ -18,3 +18,15 @@ $ git remote set-url origin <url>
 2.先刪再加
 $ git remote rm origin
 $ git remote add origin <url>
+----------------------------------------------------------------------------
+線上版本比本地還新(本地已有更新)
+1.先拉在推
+$ git pull -r
+$ git push origin master
+-r 以rebase方式合併，方法為：
+暫存從上次pull之後的變更(目前local最新版本)
+回復到上次pull的版本
+pull更新遠端上的版本
+合併目前local最新版本
+2.強制覆蓋
+$ git pull -f
