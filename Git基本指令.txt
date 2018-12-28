@@ -51,3 +51,4 @@ Go to future version(after going back)
 $ git reflog
 (ex:5f5bd1...)
 $ git reset --hard <version number>
+(ex:5f5bd1...)
