@@ -1,16 +1,17 @@
-$ git clone <>
+----------------------------------------------------------------------------
 $ git remote
-顯示所有的遠端版本控制倉庫(沒特別設定會默認為clone的)
+顯示所有的遠端版本控制倉庫
 $ git remote -v
-後方顯示其URL
-git remote add <名稱> <網址>
-$ git push <要remote的名稱，默認origin> master
-上傳
-$ git remote rename <前><後
+顯示所有的遠端版本控制倉庫其url
+----------------------------------------------------------------------------
+git remote add <name> <url>
+$ git push <origin> master
+上傳(默認 origin)
+$ git remote rename <before> <after>
 改名
 $ git remote rm <>
 刪除
-
+----------------------------------------------------------------------------
 修改已命名位址
 1.修改命令
 $ git remote set-url origin <url>

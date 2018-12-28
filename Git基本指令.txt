@@ -1,7 +1,8 @@
-使用之前
+----------------------------------------------------------------------------
+使用之前安裝
 register github on website (https://github.com/)
 install git for pc (https://git-scm.com/)
-
+----------------------------------------------------------------------------
 一般指令
 $ git --version
 版本
@@ -11,41 +12,42 @@ $ git log
 顯示全部commit的內容
 $ git show 
 顯示目前commit內容
-
+----------------------------------------------------------------------------
+設定
 $ git config --global user.email "<email>"
 $ git config --global user.name "<name>"
-設定誰要push
 $ git config --global core.editor "emacs"
-默認編輯器
 $ git config --list
-
-顯示全部設定
-$ git clone <HTTP from Github repository> 
-下載到local
+----------------------------------------------------------------------------
+Clone 專案
+$ git clone <HTTP from Github repository>
+自動設定 remote 為 origin
 $ git init  
 建立Repository(輸入git init在當下Repository)
-
+----------------------------------------------------------------------------
+加入檔案到暫存區(Staging Area)
 $ git add -A 
-加入修改的檔案到暫存區(Staging Area)
+全部
 $ git add .
 只加入修改的檔案
-
-$ git commit -a -m "敘述"
-存版本版本庫(Repository)
-$ git commit -e 
-可敘述更多
-
+----------------------------------------------------------------------------
+Commit 版本
+$ git commit -a -m "版本敘述"
+-a 全部 
+-m <msg>
+----------------------------------------------------------------------------
+Push to Github(remote)
 $ git push
-push到Github(remote)
-clone過用$ git push
-沒有要設定remote
-(ex:$ git push <origin> master)
-
-2.go back to previous version
+push clone 的專案
+$ git push <origin> master
+設定 remote name
+----------------------------------------------------------------------------
+Go back to previous version
 $ git log <version number>
 (ex:5f5bd1...)
 $ git reset --hard <version number>
-
-4.go to future version
+----------------------------------------------------------------------------
+Go to future version(after going back)
 $ git reflog
+(ex:5f5bd1...)
 $ git reset --hard <version number>
