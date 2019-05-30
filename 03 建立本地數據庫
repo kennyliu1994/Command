@@ -1,0 +1,6 @@
+在當下資料夾建立為數據庫
+$ git init  
+Initialized empty Git repository in D:/test/.git/
+
+或直接複製遠端數據庫
+$ git clone <HTTP from Github repository> <directory>

@@ -1,0 +1,5 @@
+從遠端數據庫 pull 下來，不指定默認為 origin master
+$ git push <遠端數據庫名稱或網址> <分支名稱>
+
+clone vs pull
+copy repository from remote on first time is "clone", and then is "pull"

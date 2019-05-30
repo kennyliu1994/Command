@@ -1,0 +1,7 @@
+設定
+$ git config --global user.email "<信箱>"
+$ git config --global user.name "<使用者名字>"
+$ git config --global core.editor "編輯器"
+
+列出設定
+$ git config --list

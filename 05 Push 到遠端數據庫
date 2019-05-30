@@ -1,0 +1,10 @@
+顯示 pull or push 的遠端數據庫名稱與網址
+$ git remote -v
+origin  https://github.com/kennyliu1994/Others.git (fetch)
+origin  https://github.com/kennyliu1994/Others.git (push)
+
+新增想要 push 的遠端數據庫名稱與網址，如果是 clone 下來的自動建立一個 origin 與 clone 下來的網址
+$ git remote add <name> <url>
+
+push 到遠端數據庫，不指定默認為 origin master
+$ git push <遠端數據庫名稱或網址> <分支名稱>
