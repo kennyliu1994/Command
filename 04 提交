@@ -4,8 +4,8 @@ $ git status
 加入檔案到 Staging Area
 $ git add <file>
 加入全部
-$ git add .
-$ git add -A 
+$ git add .(不處理刪除的文件)
+$ git add -A (完全同步)
 
 提交
 $ git commit -m "<訊息>"
