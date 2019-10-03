@@ -1,0 +1,22 @@
+都需要先設定上傳者
+$ git config --list
+$ git config --global user.email "<信箱>"
+$ git config --global user.name "<使用者名字>"
+
+有分兩種方式，clone 過或沒有
+1.clone
+$ git clone https://github.com/kennyliu1994/Linux.git
+$ git add -A
+$ git commit -m "<訊息>"
+$ git push
+
+2.no clone
+$ cd 當前資料夾
+$ git config --list
+$ git init  
+Initialized empty Git repository in D:/test/.git/
+git remote add origin https://github.com/kennyliu1994/Linux.git
+$ git add -A
+$ git commit -m "<訊息>"
+$ git push --set-upstream origin master
+$ git push
