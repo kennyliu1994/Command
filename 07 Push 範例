@@ -15,7 +15,12 @@ $ cd 當前資料夾
 $ git config --list
 $ git init  
 Initialized empty Git repository in D:/test/.git/
-git remote add origin https://github.com/kennyliu1994/Linux.git
+$ git remote -v
+empty
+github create new repository
+$ git remote add origin https://github.com/kennyliu1994/thesis-latex.git
+origin	https://github.com/kennyliu1994/thesis-latex.git (fetch)
+origin	https://github.com/kennyliu1994/thesis-latex.git (push)
 $ git add -A
 $ git commit -m "<訊息>"
 $ git push --set-upstream origin master
